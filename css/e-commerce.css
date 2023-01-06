@@ -6,7 +6,7 @@
 body{
     margin: 0;
     top: 0;
-    background-image: url("beach.png");
+    background: url(/assets/images/beach.png);
     background-repeat: no-repeat;
 }
 
@@ -30,6 +30,7 @@ a{
     display: inline-block;
     text-transform: uppercase;
     font-weight: 450;
+    padding: 0 8px 0 12px;
 }
 a::after{
     display: block;
